@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 70px;
+}
+
+
+/* header */
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+/* penutup header */
+
+/* main */
+.hero {
+    display: flex;
+    height: 550px;
+    background-color: #111;
+}
+
+.hero .text {
+    color: white;
+    margin: 100px;
+    width: 500px;
+}
+
+.hero .text h1 {
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.hero .text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .text button {
+    background-color: #ccc;
+    padding: 10px 40px;
+}
+
+.hero .gambar {
+    color: white;
+    border: 1px solid #cccc;
+    width: 500px;
+    height: 500px;
+    margin: auto
+}
+
+/* penutup main */
+
+/* kontent */
+.title {
+    text-align: center;
+}
+
+.title span {
+    color: red;
+}
+
+.learn {
+    background-color: rgba(226, 225, 225, 0.8);
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 350px;
+}
+
+.learn .card {
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+
+.contact {
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 5px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 50px 0;
+}
+
+.contact input,
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact button {
+    width: 100px;
+    background-color: #ccc;
+    padding: 10px 20px;
+}
+
+/* penutup konten*/
+
+
+
+footer {
+  top: 10px;
+  background-color: rgb(68, 184, 172, 0.3);
+  border-radius: 20px;
+  margin: 20px 20px;
+  height: 149px;
+  width: 1480px;
+  font-family: Helvetica;
+
+}
+
+.logo-footer img {
+  height: 90px;
+  position: absolute;
+  left: 30px;
+  top: 1749px;
+  border-radius: 52px;
+  box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.logo-footer p {
+  background-color: rgba(68, 184, 172, 0.4);
+  width: 100px;
+  position: absolute;
+  left: 25px;
+  top: 1850px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  padding: 2px 2px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.layanan img {
+  position: absolute;
+  top: 1749px;
+  left: 660px;
+}
+
+.menu h4, li {
+
+  background-color: rgba(68, 184, 172, 0.4);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 0 5px 32px rgba(0, 0, 0, 0.2);
+}
+
+.menu h4 {
+  font-family: 'comic sans ms';
+  width: 140px;
+  height: 35px;
+  position: relative;
+  left: 869px;
+  top: 29px;
+  padding: 0 2px;
+  font-style: italic;
+  font-size: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.menu:hover h4 {
+  opacity: 1;
+}
+
+.menu:active h4 {
+    top: 32px;
+}
+
+.menu li{
+  width: 110px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 37px;
+  padding-top: 6px;
+}
+
+
+.sosial-media a {
+ cursor: pointer;
+ top: 1780px;
+ opacity: 0.6;
+}
+
+.sosial-media:active a {
+  position: absolute;
+  top: 1782px;
+  box-shadow: rgba(68, 184, 172, 0.4);
+}
+
+.wa {
+  position: absolute;
+  left: 1422px;
+}
+
+.wa:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.fb {
+  position: absolute;
+  left: 1315px;
+}
+
+.fb:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.twitter {
+  position: absolute;
+  left: 1218px;
+}
+
+.twitter:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.insta {
+  position: absolute;
+  left: 1120px;
+}
+
+.insta:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.icon {
+  padding: 10px 10px;
+}
+
+.sosial-media p {
+  top: 0;
+  color: white;
+  padding: 40px 23px 0 23px;
+  display: inline;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+  margin-right: 4px;
+
+}
+
+.alamat {
+  background-color: rgba(68, 184, 172, 0.4);
+  width: 420px;
+  position: relative;
+  left: 200px;
+  top: 20px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  padding: 2px 2px;
+  font-size: 15px;
+  text-align: center;
+}

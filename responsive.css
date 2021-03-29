@@ -1,0 +1,172 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+footer {
+  top: 10px;
+  background-color: rgb(68, 184, 172, 0.3);
+  border-radius: 20px;
+  margin: 10px 10px px;
+  height: 149px;
+  width: 100%;
+  font-family: Helvetica;
+  
+}
+
+.logo-footer img {
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  top: 1749px;
+  border-radius: 52px;
+  box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.Logo-footer h2 {
+  background-color: rgba(68, 184, 172, 0.4);
+  width: 90px;
+  position: relative;
+  left: 30px;
+  top: 115px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  padding: 2px 2px;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+.layanan img {
+  position: absolute;
+  top: 1749px;
+  left: 660px;
+}
+
+.menu h4, li {
+  
+  background-color: rgba(68, 184, 172, 0.4);
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 0 5px 32px rgba(0, 0, 0, 0.2);
+}
+
+.menu h4 {
+  font-family: 'comic sans ms';
+  width: 140px;
+  height: 35px;
+  position: relative;
+  left: 869px;
+  top: 29px;
+  padding: 0 2px;
+  font-style: italic;
+  font-size: 20px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.menu:hover h4 {
+  opacity: 1;
+}
+
+.menu:active h4 {
+    top: 32px;
+}
+
+.menu li{
+  width: 110px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 5;
+  margin-left: 37;
+  padding-top:6;
+}
+
+
+.sosial-media a {
+ cursor: pointer;
+ top: 1780px;
+ opacity: 0.6;
+}
+
+.sosial-media:active a {
+  position: absolute;
+  top: 1782px;
+  box-shadow: rgba(68, 184, 172, 0.4);
+}
+
+.wa {
+  position: absolute;
+  left: 1402px;
+}
+
+.wa:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.fb {
+  position: absolute;
+  left: 1293px;
+}
+
+.fb:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.twitter {
+  position: absolute;
+  left: 1198px;
+}
+
+.twitter:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.insta {
+  position: absolute;
+  left: 1100px;
+}
+
+.insta:hover {
+  position: absolute;
+  opacity: 1;
+}
+
+.icon {
+  padding: 10px 10px;
+}
+
+.sosial-media p {
+  top: 0;
+  color: white;
+  padding: 35px 25  25;
+  display: inline;
+  font-size: 12px;
+  font-weight: bold;
+  float: right;
+}
+
+.alamat {
+  background-color: rgba(68, 184, 172, 0.4);
+  width: 420px;
+  position: relative;
+  left: 200px;
+  top: 20px;
+  border-radius: 5px;
+  color: rgba(255, 255, 255, 1);
+  padding: 2px 2px;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+}
+  
+}
